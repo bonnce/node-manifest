@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-source
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: node-source
+  template:
+    metadata:
+      labels:
+        app: node-source
+    spec:
+      containers:
+        image: bonnce/node-source:1.1
+        name: node-source
+        ports:
+        - containerPort: 3500
+          protocol: TCP
