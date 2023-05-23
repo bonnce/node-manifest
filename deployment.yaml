@@ -13,7 +13,7 @@ spec:
         app: node-source
     spec:
       containers:
-        image: messi5
+        image: messi6
         name: node-source
         ports:
         - containerPort: 3500
