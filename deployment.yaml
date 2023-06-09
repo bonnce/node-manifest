@@ -13,7 +13,7 @@ spec:
         app: node-source
     spec:
       containers:
-        image: bonnce/node-source:1.0.9
+        image: bonnce/node-source:7dbae70997906fb5ce1fdf4e38baa69852a9efc0
         name: node-source
         ports:
         - containerPort: 3500
