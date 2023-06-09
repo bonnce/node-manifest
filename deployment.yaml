@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: node-source
-        image: bonnce/node-source:7dbae70997906fb5ce1fdf4e38baa69852a9efc0
+        image: bonnce/node-source:938b00ee58ba3e4b9a71f466f79b95c61b53f7c8
         ports:
         - containerPort: 3500
           protocol: TCP
