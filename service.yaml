@@ -1,10 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: node-simple
+  name: node-source
 spec:
   selector:
-    app.kubernetes.io/name: node-source
     role: node-source
   ports:
     - protocol: TCP
