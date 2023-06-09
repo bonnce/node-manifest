@@ -12,6 +12,7 @@ spec:
     metadata:
       labels:
         app: node-source
+        role: node-source
     spec:
       containers:
       - name: node-source
