@@ -8,5 +8,5 @@ spec:
     role: node-source
   ports:
     - protocol: TCP
-      port: 3500
+      port: 8888
       targetPort: 3500
