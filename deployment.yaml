@@ -7,6 +7,7 @@ spec:
   selector:
     matchLabels:
       app: node-source
+      role: node-source
   template:
     metadata:
       labels:

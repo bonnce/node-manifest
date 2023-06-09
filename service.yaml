@@ -5,6 +5,7 @@ metadata:
 spec:
   selector:
     app.kubernetes.io/name: node-source
+    role: node-source
   ports:
     - protocol: TCP
       port: 3500
